@@ -1,4 +1,4 @@
-[![Build status](https://github.com/zprietof23/Reto1/workflows/Build%20status/badge.svg)](https://github.com/zprietof23/Reto1/actions?query=workflow%3A%22Build+status%22+branch%3Amain)
+[![Build status](https://github.com/zprietof23/Reto1/workflows/CI/badge.svg)](https://github.com/zprietof23/Reto1/actions?query=workflow%3A%22Build+status%22+branch%3Amain)
 [![LICENSE](https://img.shields.io/badge/license-AGPL-red.svg)](./LICENSE)
 [![github-forks-image](https://img.shields.io/github/forks/zprietof23/Reto1.svg?style=social&label=Fork)](https://github.com/zprietof23/Reto1/fork)
 [![NPM Downloads](https://img.shields.io/npm/dt/reto1-zprietof23.svg)](https://www.npmjs.com/package/reto1-zprietof23)
