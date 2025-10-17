@@ -36,7 +36,8 @@ main {
 header {
     background-color: var(--primary-color); 
     color: var(--text-color);
-    padding: 15px 20px;
+    padding: 5px ;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,11 +117,23 @@ section {
 }
 
 .jugadores {
-    background-color: var(--light-color); 
   padding: 10px; 
-  text-align: center;
+  text-align: center; 
   width: 31%;
  /*Centrarla*/ 
+}
+.Heretics { 
+     background-color: #353434; 
+  padding: 0px; 
+  text-align: center; 
+  width: 81%;  
+}
+
+.G2 { 
+     background-color: var(--light-color); 
+   padding: 0px; 
+  text-align: center; 
+  width: 81%;  
 }
 
 .grid-participants img, .player-card img {
@@ -218,7 +231,7 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.4s ease-in-out, opacity 0.4s;
+
 }
 
 /* 3. Onartu botoia (LABEL izan behar du HTML-an) */
@@ -226,7 +239,7 @@ footer a {
     background-color: var(--secondary-color);
     color: var(--primary-color); 
     margin-left: 20px;
-    padding: 8px 19 px; 
+    padding: 18px 19px; 
     border-radius: 4px;
     cursor: pointer; 
     font-weight: bold;
@@ -273,7 +286,4 @@ footer a {
         margin-left: 0;
         width: 80%;
     }
-}
-    }
-
 }
