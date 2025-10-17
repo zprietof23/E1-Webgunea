@@ -1,5 +1,4 @@
 [![LICENSE](https://img.shields.io/badge/license-AGPL-red.svg)](./LICENSE)
-[![NPM Downloads](https://img.shields.io/npm/dt/reto1-zprietof23.svg)](https://www.npmjs.com/package/reto1-zprietof23)
 [![github-stars-image](https://img.shields.io/github/stars/zprietof23/Reto1.svg?style=social&label=Stars)](https://github.com/zprietof23/Reto1)
 # Reto1
 GameStop-eko Webgunea
