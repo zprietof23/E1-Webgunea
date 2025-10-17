@@ -1,7 +1,8 @@
-[![Build status](https://github.com/h5bp/html5-boilerplate/workflows/Build%20status/badge.svg)](https://github.com/h5bp/html5-boilerplate/actions?query=workflow%3A%22Build+status%22+branch%3Amain)
+[![Build status](https://github.com/zprietof23/Reto1/workflows/Build%20status/badge.svg)](https://github.com/zprietof23/Reto1/actions?query=workflow%3A%22Build+status%22+branch%3Amain)
 [![LICENSE](https://img.shields.io/badge/license-AGPL-red.svg)](./LICENSE)
-[![NPM Downloads](https://img.shields.io/npm/dt/html5-boilerplate.svg)](https://www.npmjs.com/package/html5-boilerplate)
-[![github-stars-image](https://img.shields.io/github/stars/h5bp/html5-boilerplate.svg?label=github%20stars)](https://github.com/h5bp/html5-boilerplate)
+[![github-forks-image](https://img.shields.io/github/forks/zprietof23/Reto1.svg?style=social&label=Fork)](https://github.com/zprietof23/Reto1/fork)
+[![NPM Downloads](https://img.shields.io/npm/dt/reto1-zprietof23.svg)](https://www.npmjs.com/package/reto1-zprietof23)
+[![github-stars-image](https://img.shields.io/github/stars/zprietof23/Reto1.svg?style=social&label=Stars)](https://github.com/zprietof23/Reto1)
 # Reto1
 GameStop-eko Webgunea
 # HTML and CSS 
