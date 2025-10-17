@@ -1,2 +1,2 @@
 # Reto1
-GameStopeko Webgunea
+GameStop-eko Webgunea
