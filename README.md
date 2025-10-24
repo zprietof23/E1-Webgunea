@@ -15,7 +15,7 @@ Fully compliant with CSS3, validated with the [W3C CSS Validation Service.](http
 ## 1. Repositorioa klonatu
 Lehenik eta behin, zure ordenagailura klaseko ereduaren **biltegia jaitsi**:
 ```bash
-git clone https://github.com/jiturriondobeitia/KlasekoEredua.git
+git clone https://github.com/zprietof23/Reto1.git
 ```
 
 ## 2. Aldaketak egiaztatu
