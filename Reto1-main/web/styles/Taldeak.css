@@ -1,0 +1,135 @@
+:root {
+    /* Koloreak Dark Moderako eta zure eskakizunetarako egokitu dira */
+    --primary-color: #b9b9b9; /* Goiburua/Orri-oina (Gris argiagoa) */
+    --secondary-color: #0fa541; /* Berde distiratsua (Akzentua/Botoiak) */
+    --text-color: #ffffff; /* Testuaren kolorea argia */
+    --light-color: #414141; /* Elementu argien atzealdea (Gris iluna) */
+    --bg-color: #212121; /* Orriaren atzealde nagusia iluna */
+}
+
+* {
+    margin: 5px ;
+    padding: 5px;
+}
+
+/* Oinarrizko body-a atzealde iluna eta testu argia izateko aldatu da */
+body {
+    font-family: Arial;  
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Goiburua eta Nabigazioa */
+header {
+    background-color: var(--primary-color); 
+    color: var(--text-color);
+    padding: 5px ;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 a {
+    color: var(--text-color);
+    text-decoration: none; 
+}
+
+.HasieraBotoi{ 
+color: var(--bg-color);
+    padding: 10px 15px;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+
+.HasieraBotoi:hover { 
+     background-color: #333333;
+    color: var(--secondary-color);
+    list-style: none;
+}
+
+
+
+ 
+
+
+.jugadores {
+  padding: 10px; 
+  text-align: center; 
+  width: 31%;
+ /*Centrarla*/ 
+}
+
+
+.Heretics:hover { 
+ transition: box-shadow 0.15s ease;
+ box-shadow: 0 0 10px 1px #ffffff;
+}
+
+.G2:hover { 
+transition: box-shadow 0.15s ease;
+ box-shadow: 0 0 15px 1px #c71010;
+}
+
+.Faze:hover {
+    transition: box-shadow 0.15s ease;
+    box-shadow: 0 0 15px 1px #d79209;
+}
+
+.MadLions:hover { 
+
+    transition: box-shadow 0.15s ease;
+ box-shadow: 0 0 15px 1px #d7de0d;
+}
+.Taldeak {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.Heretics {
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.G2 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.Faze {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.MadLions {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+        
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+

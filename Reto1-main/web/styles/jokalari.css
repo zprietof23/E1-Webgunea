@@ -1,0 +1,104 @@
+:root {
+    /* Koloreak Dark Moderako eta zure eskakizunetarako egokitu dira */
+    --primary-color: #b9b9b9; /* Goiburua/Orri-oina (Gris argiagoa) */
+    --secondary-color: #0fa541; /* Berde distiratsua (Akzentua/Botoiak) */
+    --text-color: #ffffff; /* Testuaren kolorea argia */
+    --light-color: #414141; /* Elementu argien atzealdea (Gris iluna) */
+    --bg-color: #212121; /* Orriaren atzealde nagusia iluna */
+}
+
+* {
+    margin: 5px ;
+    padding: 5px;
+}
+
+/* Oinarrizko body-a atzealde iluna eta testu argia izateko aldatu da */
+body {
+    font-family: Arial;  
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Goiburua eta Nabigazioa */
+header {
+    background-color: var(--primary-color); 
+    color: var(--text-color);
+    padding: 5px ;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 a {
+    color: var(--text-color);
+    text-decoration: none; 
+}
+
+.HasieraBotoi{ 
+
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
+  
+}
+
+
+
+
+.HurrengoTaldea {
+    color: var(--bg-color);
+    padding: 10px 15px;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+
+.HurrengoTaldea:hover {
+    background-color: #333333;
+    color: var(--secondary-color);
+    list-style: none;
+    
+} 
+
+.AtzekoTaldea{ 
+ color: var(--bg-color);
+    padding: 10px 15px;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+
+.AtzekoTaldea:hover{ 
+    background-color: #333333;
+    color: var(--secondary-color);
+    list-style: none;
+   
+}
+
+.Jokalariak {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+
+}
+    
+
+
+              
+
+
+        
