@@ -56,19 +56,6 @@ color: var(--bg-color);
     list-style: none;
 }
 
-
-
- 
-
-
-.jugadores {
-  padding: 10px; 
-  text-align: center; 
-  width: 31%;
- /*Centrarla*/ 
-}
-
-
 .Heretics:hover { 
  transition: box-shadow 0.15s ease;
  box-shadow: 0 0 10px 1px #ffffff;
@@ -89,10 +76,9 @@ transition: box-shadow 0.15s ease;
     transition: box-shadow 0.15s ease;
  box-shadow: 0 0 15px 1px #d7de0d;
 }
+
 .Taldeak {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
     gap: 8px;
 }
     
@@ -120,10 +106,6 @@ transition: box-shadow 0.15s ease;
     grid-row-start: 2;
 }
 
-.div6 {
-    grid-row-start: 2;
-}
-        
 
 footer {
     background-color: var(--primary-color);

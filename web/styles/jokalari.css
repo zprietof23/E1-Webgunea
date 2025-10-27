@@ -43,7 +43,6 @@ header h1 a {
 }
 
 .HasieraBotoi{ 
-
   color: var(--text-color);
   text-decoration: none;
   padding: 12px 24px;
@@ -51,12 +50,7 @@ header h1 a {
   font-weight: bold;
   font-size: 16px;
   transition: all 0.3s ease;
-
-  
 }
-
-
-
 
 .HurrengoTaldea {
     color: var(--bg-color);
@@ -74,7 +68,7 @@ header h1 a {
 } 
 
 .AtzekoTaldea{ 
- color: var(--bg-color);
+   color: var(--bg-color);
     padding: 10px 15px;
     display: block;
     list-style: none;
@@ -85,20 +79,132 @@ header h1 a {
     background-color: #333333;
     color: var(--secondary-color);
     list-style: none;
-   
 }
 
 .Jokalariak {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 5px;
-
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+   
 }
-    
+
+.Jokalaria1 { 
+  position:relative; 
+  display: inline-block;
+}
+
+.Jokalaria1 .info{ 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 4;
+  text-shadow: 2px 2px 5px rgb(4, 40, 245);
+
+  transition: opacity 0.3s ease;
+}
+.Jokalaria1 .img{
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.Jokalaria1:hover .info {
+    top: 70%;
+    transition: 0.5s ease;
+  opacity: 0.5;
+}
+.Jokalaria1:hover img {
+  filter: brightness(80%);
+}
+
+/* Hay que hacer lo mismo para todos los jugadores*/
 
 
-              
+.Jokalaria2 { 
+  position:relative; 
+  display: inline-block;
+}
+
+.Jokalaria2 .info{ 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 4;
+  text-shadow: 2px 2px 5px rgb(4, 40, 245);
+
+  transition: opacity 0.3s ease;
+}
+.Jokalaria2 .img{
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.Jokalaria2:hover .info {
+    top: 70%;
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+.Jokalaria2:hover img {
+  filter: brightness(80%);
+}
 
 
-        
+.Jokalaria3 { 
+  position:relative; 
+  display: inline-block;
+}
+
+.Jokalaria3 .info{ 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 4;
+  text-shadow: 2px 2px 5px rgb(4, 40, 245);
+  transition: opacity 0.3s ease;
+}
+.Jokalaria3 .img{
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.Jokalaria3:hover .info {
+    top: 70%;
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+.Jokalaria3:hover img {
+  filter: brightness(80%);
+}
+
+.Jokalaria4 { 
+  position:relative; 
+  display: inline-block;
+}
+
+.Jokalaria4 .info{ 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(172, 44, 44);
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 4;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  transition: opacity 0.3s ease;
+}
+
+
+
+
