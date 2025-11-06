@@ -1,3 +1,4 @@
+
 :root {
     /* Koloreak Dark Moderako eta zure eskakizunetarako egokitu dira */
     --primary-color: #b9b9b9; /* Goiburua/Orri-oina (Gris argiagoa) */
@@ -42,35 +43,82 @@ header h1 a {
     text-decoration: none; 
 }
 
-.sarrera {
+
+.berriak{
     display: grid;
-    gap: 2px;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
 }
 
-.div1 { 
-    grid-column-start: 1;
-    grid-row-start: 1;
+.left-big{
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;           /* Activamos flexbox */
+    align-items: flex-start; /* Alinea el contenido al inicio verticalmente */
+    gap: 20px;
+    justify-content: center;
 }
+
+.right-list{
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item{
+    display: flex;
+    gap: 15px;
+}
+
+.img2{
+    width: 80px;
+    height: 70px;
+    background: #cfcfcf;
+}
+
+.img3{
+justify-content: center;
+text-align: center;
+background-color: var(--primary-color)
+}
+.img4{
+    width: 70px;
+    height: 70px;
+    background: #cfcfcf;
+}
+.info h3{
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+
+.info p{
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.fecha{
+    font-size: 12px;
+    color: #777;
+    display: block;
+}
+
+.berria1 img {
+    width: 450px;            
+    height: 450px;
     
-.videoa {
-    grid-column-start: 2;
 }
 
-footer {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 450px;
+    font-size: 20px;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
 }
-
-footer a {
-    color: var(--secondary-color); /* Berdea */
-}
-
-h3{ 
-    color: chocolate;
-}
+ 
 
 .HasieraBotoi{ 
 color: var(--bg-color);
@@ -81,7 +129,7 @@ color: var(--bg-color);
 }
 
 .HasieraBotoi:hover { 
-     background-color: #333333;
+    background-color: #333333;
     color: var(--secondary-color);
     list-style: none;
-}
+}   
