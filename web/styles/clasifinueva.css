@@ -53,7 +53,7 @@ margin-bottom: 100px;
 .container {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-gap: 90px;
+gap: 60px;
 justify-items: center;
 align-items: center;
 }
@@ -125,24 +125,24 @@ transition: box-shadow 0.15s ease;
 .partida-final {
 background: #796666;
 border: 3px solid #999;
-width: 400px;
+width: 300px;
 height: 170px;
 border-radius: 6px;
 }
 
 /* cajita texto */
-.middle-box{
-    border:2px solid rgba(255,255,255,0.6);
+.equipoganador1{
+    border:2px solid rgba(52, 163, 32, 0.6);
     padding:5px 15px;
     font-size:25px;
-    font-weight:700;
+    font-weight:70;
     white-space:nowrap;
     text-align:center;
     border-radius: 6px;
 }
 
-.middle-right{
-    border:2px solid rgba(255,255,255,0.6);
+.equipoganador2{
+    border:2px solid rgba(52, 163, 32, 0.6);
     padding:5px 15px;
     font-size:25px;
     font-weight:700;

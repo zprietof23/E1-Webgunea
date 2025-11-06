@@ -52,6 +52,18 @@ header h1 a {
   transition: all 0.3s ease;
 }
 
+
+nav a {
+    color: var(--bg-color);
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #333333;
+    color: var(--secondary-color);
+}
+
 .HurrengoTaldea {
     color: var(--bg-color);
     padding: 10px 15px;
@@ -103,7 +115,6 @@ header h1 a {
   font-weight: bold;
   opacity: 4;
   text-shadow: 2px 2px 5px rgb(4, 40, 245);
-
   transition: opacity 0.3s ease;
 }
 .Jokalaria1 .img{
@@ -160,7 +171,7 @@ footer {
     color: var(--text-color);
     text-align: center;
     padding: 15px;
-    margin-top: 70px;
+    margin-top: 5px;
 }
 
 footer a {
