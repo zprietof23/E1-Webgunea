@@ -39,7 +39,8 @@ header {
 
 header h1 a {
     color: var(--text-color);
-    text-decoration: none; 
+    text-decoration: none;
+    text-align: center;
 }
 
 .HasieraBotoi{ 

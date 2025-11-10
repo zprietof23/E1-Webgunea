@@ -65,11 +65,6 @@ nav a:hover {
     background-color: #333333;
     color: var(--secondary-color);
 }
-
-body{
-    font-family:Arial;
-    color:#fff;
-}
 .Titulua{ 
     text-align:center;
 }

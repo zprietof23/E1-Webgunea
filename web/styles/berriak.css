@@ -124,4 +124,11 @@ color: var(--bg-color);
     background-color: #333333;
     color: var(--secondary-color);
     list-style: none;
-}   
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+}

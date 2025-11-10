@@ -177,3 +177,7 @@ footer {
 footer a {
     color: var(--secondary-color); /* Berdea */
 }
+h1{
+  text-align: center;
+  color: var(--bg-color);
+}
