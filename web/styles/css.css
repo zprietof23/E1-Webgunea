@@ -149,7 +149,7 @@ section {
 /* Formularioa */
 form label, form input, form select, form textarea {
     display: block;
-    width: 100%;
+    width: 98%;
     margin-bottom: 10px;
 }
 
